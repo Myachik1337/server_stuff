@@ -1,0 +1,132 @@
+WeaponData
+{
+	"MaxPlayerSpeed"				"180"
+	"MaxPlayerSpeedAlt"				"220"
+	"WeaponType"					"Pistol"
+	"FullAuto"						"1"
+	"WeaponPrice"					"600"
+	"KillAward"						"300"
+	"WeaponArmorRatio"				"1.864"
+	"CrosshairMinDistance"			"4"
+	"CrosshairDeltaDistance"		"3"
+	"Team"							"ANY"
+	"PlayerAnimationExtension"		"pistol"
+	"MuzzleFlashEffect1stPerson"	"weapon_muzzle_flash_assaultrifle"
+	"MuzzleFlashEffect1stPersonAlt"	"weapon_muzzle_flash_pistol"
+	"MuzzleFlashEffect3rdPerson"	"weapon_muzzle_flash_assaultrifle"
+	"MuzzleFlashEffect3rdPersonAlt"	"weapon_muzzle_flash_pistol"
+	"TracerEffect"					"weapon_tracers_pistol"
+	"TracerFrequency"				"1"
+	"EjectBrassEffect"				"weapon_shell_casing_9mm"
+	"HeatEffect"					"weapon_muzzle_smoke"
+	"HeatPerShot"					"0.25"
+
+	// Weapon characteristics:
+	"Penetration"					"2.0"
+	"Damage"						"86"
+	"Range"							"4096.0"
+	"RangeModifier"					"0.94"
+	"Bullets"						"1"
+	"CycleTime"						"0.5"
+	"CycleTimeAlt"					"0.4"
+	"TimeToIdle"					"1.5"
+	"IdleInterval"					"60.0"
+
+	// New accuracy model parameters
+	"Spread"						"0.000520"
+	"InaccuracyCrouch"				"0.001000"
+	"InaccuracyStand"				"0.002000"
+	"InaccuracyJump"				"0.053230"
+	"InaccuracyJumpInitial"			"0.018650"
+	"InaccuracyLand"				"0.000130"
+	"InaccuracyLadder"				"0.012000"
+	"InaccuracyFire"				"0.050000"
+	"InaccuracyMove"				"0.006500"
+	"RecoilAngle"					"0.000000"
+	"RecoilAngleVariance"			"40.00000"
+	"RecoilMagnitude"				"20.00000"
+	"RecoilMagnitudeVariance"		"0.000000"
+	"RecoilSeed"					"1454"
+
+	"SpreadAlt"						"0.068000"
+	"InaccuracyCrouchAlt"			"0.005000"
+	"InaccuracyStandAlt"			"0.012000"
+	"InaccuracyJumpAlt"				"0.053230"
+	"InaccuracyLandAlt"				"0.000150"
+	"InaccuracyLadderAlt"			"0.035000"
+	"InaccuracyFireAlt"				"0.055000"
+	"InaccuracyMoveAlt"				"0.036000"
+	"RecoilAngleAlt"				"3.000000"
+	"RecoilAngleVarianceAlt"		"50.00000"
+	"RecoilMagnitudeAlt"			"45.00000"
+	"RecoilMagnitudeVarianceAlt"	"6.000000"
+
+	"RecoveryTimeCrouch"			"0.700000"
+	"RecoveryTimeStand"				"0.900000"
+	"RecoveryTimeCrouchFinal"		"0.449927"
+	"RecoveryTimeStandFinal"		"0.811200"
+	"RecoveryTransitionStartBullet"	"3"
+	"RecoveryTransitionEndBullet"	"10"
+
+	"FlinchVelocityModifierLarge"	"0.4"
+	"FlinchVelocityModifierSmall"	"0.4"
+
+	"ReserveAmmoMax"				"8"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"						"#CStrike_WPNHUD_Revolver"
+	"viewmodel"						"models/weapons/v_pist_revolver.mdl"
+	"playermodel"					"models/weapons/w_pist_revolver.mdl"
+	"anim_prefix"					"anim"
+	"bucket"						"1"
+	"bucket_position"				"1"
+	"clip_size"						"8"
+	"primary_ammo"					"BULLET_PLAYER_50AE"
+	"secondary_ammo"				"None"
+	"weight"						"7"
+	"item_flags"					"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"						"Default.ClipEmpty_Pistol"
+		"single_shot"				"Weapon_Revolver.Single"
+		"nearly_empty"				"Default.NearlyEmpty"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"CSweaponsSmall"
+				"character"	"F"
+		}
+		"weapon_s"
+		{
+				"font"		"CSweapons"
+				"character"	"F"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"U"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

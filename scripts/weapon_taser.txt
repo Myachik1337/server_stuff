@@ -1,0 +1,106 @@
+WeaponData
+{
+	"MaxPlayerSpeed"				"230"
+	"WeaponType"					"Pistol"
+	"FullAuto"						"0"
+	"WeaponPrice"					"200"
+	"KillAward"						"100"
+	"WeaponArmorRatio"				"2.0"
+	"CrosshairMinDistance"			"8"
+	"CrosshairDeltaDistance"		"3"
+	"Team"							"ANY"
+	"PlayerAnimationExtension"		"pistol"
+	"MuzzleFlashEffect1stPerson"	"weapon_muzzle_flash_taser"
+	"MuzzleFlashEffect3rdPerson"	"weapon_muzzle_flash_taser"
+	"TracerEffect"					"weapon_tracers_taser"
+	"TracerFrequency"				"1"
+	"EjectBrassEffect"				"weapon_shell_casing_9mm"
+	"HeatPerShot"					"0.0"
+
+	// Weapon characteristics:
+	"Penetration"					"0.0"
+	"Damage"						"500"
+	"Range"							"120.0"
+	"RangeModifier"					"0.99"
+	"Bullets"						"1"
+	"CycleTime"						"0.15"
+	"TimeToIdle"					"2.0"
+	"IdleInterval"					"20.0"
+
+	// New accuracy model parameters
+	"Spread"						"0.002000"
+	"InaccuracyCrouch"				"0.001000"
+	"InaccuracyStand"				"0.001000"
+	"InaccuracyJump"				"0.092960"
+	"InaccuracyJumpInitial"			"0.096620"
+	"InaccuracyLand"				"0.000175"
+	"InaccuracyLadder"				"0.119500"
+	"InaccuracyFire"				"0.022120"
+	"InaccuracyMove"				"0.001000"
+	"RecoilSeed"					"687"
+
+	"RecoveryTimeCrouch"			"0.287823"
+	"RecoveryTimeStand"				"0.345388"
+
+	"FlinchVelocityModifierLarge"	"0.5"
+	"FlinchVelocityModifierSmall"	"0.65"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"						"#CStrike_WPNHUD_Taser"
+	"viewmodel"						"models/weapons/v_eq_taser.mdl"
+	"playermodel"					"models/weapons/w_eq_taser.mdl"
+	"anim_prefix"					"anim"
+	"bucket"						"2"
+	"bucket_position"				"2"
+	"clip_size"						"1"
+	"primary_ammo"					"AMMO_TYPE_TASERCHARGE"
+	"secondary_ammo"				"None"
+	"weight"						"0"
+	"item_flags"					"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"						"Weapon_Taser.Empty"
+		"single_shot"				"Weapon_Taser.Single"
+		"special1"					"Weapon_Taser.Charging"
+		"special2"					"Weapon_Taser.ChargeReady"
+		"nearly_empty"				"Default.NearlyEmpty"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"CSweaponsSmall"
+				"character"	"U"
+		}
+		"weapon_s"
+		{
+				"font"		"CSweapons"
+				"character"	"U"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"S"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

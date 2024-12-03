@@ -1,0 +1,116 @@
+WeaponData
+{
+	"MaxPlayerSpeed"				"210"
+	"WeaponType"					"Shotgun"
+	"FullAuto"						"0"
+	"WeaponPrice"					"1100"
+	"KillAward"						"900"
+	"WeaponArmorRatio"				"1.5"
+	"CrosshairMinDistance"			"9"
+	"CrosshairDeltaDistance"		"4"
+	"Team"							"TERRORIST"
+	"PlayerAnimationExtension"		"xm1014"
+	"MuzzleFlashEffect1stPerson"	"weapon_muzzle_flash_autoshotgun"
+	"MuzzleFlashEffect3rdPerson"	"weapon_muzzle_flash_autoshotgun"
+	"TracerEffect"					"weapon_tracers_shot"
+	"TracerFrequency"				"1"
+	"EjectBrassEffect"				"weapon_shell_casing_shotgun"
+	"HeatEffect"					"weapon_muzzle_smoke"
+	"HeatPerShot"					"1.5"
+	"ReloadsSingly"					"1"
+	"AddonScale"					"0.9"
+	"AddonLocation"					"primary_shotgun"
+
+	// Weapon characteristics:
+	"Penetration"					"1.0"
+	"Damage"						"32"
+	"Range"							"1400.0"
+	"RangeModifier"					"0.45"
+	"Bullets"						"8"
+	"CycleTime"						"0.85"
+	"TimeToIdle"					"2.0"
+	"IdleInterval"					"20.0"
+
+	// New accuracy model parameters
+	"Spread"						"0.062000"
+	"InaccuracyCrouch"				"0.005250"
+	"InaccuracyStand"				"0.007000"
+	"InaccuracyJump"				"0.057700"
+	"InaccuracyJumpInitial"			"0.050120"
+	"InaccuracyLand"				"0.000108"
+	"InaccuracyLadder"				"0.036000"
+	"InaccuracyFire"				"0.009720"
+	"InaccuracyMove"				"0.016800"
+	"RecoilAngle"					"0.000000"
+	"RecoilAngleVariance"			"20.00000"
+	"RecoilMagnitude"				"143.0000"
+	"RecoilMagnitudeVariance"		"22.00000"
+	"RecoilSeed"					"1089"
+
+	"RecoveryTimeCrouch"			"0.328941"
+	"RecoveryTimeStand"				"0.460517"
+	"RecoveryTransitionStartBullet"	"2"
+	"RecoveryTransitionEndBullet"	"5"
+
+	"FlinchVelocityModifierLarge"	"0.4"
+	"FlinchVelocityModifierSmall"	"0.45"
+
+	"ReserveAmmoMax"				"32"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"						"#CStrike_WPNHUD_SawedOff"
+	"viewmodel"						"models/weapons/v_shot_sawedoff.mdl"
+	"playermodel"					"models/weapons/w_shot_sawedoff.mdl"
+	"anim_prefix"					"anim"
+	"bucket"						"0"
+	"bucket_position"				"0"
+	"clip_size"						"7"
+	"primary_ammo"					"BULLET_PLAYER_BUCKSHOT"
+	"secondary_ammo"				"None"
+	"weight"						"20"
+	"item_flags"					"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"						"Default.ClipEmpty_Rifle"
+		"single_shot"				"Weapon_SawedOff.Single"
+		"nearly_empty"				"Default.NearlyEmpty"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"CSweaponsSmall"
+				"character"	"]"
+		}
+		"weapon_s"
+		{
+				"font"		"CSweapons"
+				"character"	"]"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"J"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

@@ -1,0 +1,564 @@
+// Default gloves config file for Counter-Strike: Source Offensive.
+// It is used to register all usable gloves for players.
+//
+// Example usage:
+//
+//	"glovesname"														// entry name, must be unique; CANNOT BE LONGER THAN 32 CHARACTERS
+//	{
+//		"viewmodel"		"models/weapons/v_models/your_gloves_model.mdl"	// viewmodel arms (gloves) model, relative to mod folder
+//		"worldmodel"	"models/weapons/w_models/your_gloves_model.mdl"	// worldmodel gloves model, relative to mod folder
+//		"localization"	"#CStrike_GlovesModel_glovesname"				// if specified, will be used as entry name in player model selection screen; defaults to entry name
+//	}
+//
+// DO NOT MODIFY THIS FILE!
+// Instead, copy it to playergloves.txt and modify that file. If no custom playergloves.txt file is found,
+// this file will be used as the default. This is crucial for the game to tell players if the server is using
+// custom configuration or not!
+
+"PlayerGloves"
+{
+	"bare"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/bare/v_bare_hands.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_bare_hands.mdl"
+	}
+	"bloodhound"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_bloodhound/v_glove_bloodhound.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_bloodhound.mdl"
+	}
+	"bloodhound_brokenfang"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_bloodhound/v_glove_bloodhound_brokenfang.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_bloodhound_brokenfang.mdl"
+	}
+	"bloodhound_hydra"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_bloodhound/v_glove_bloodhound_hydra.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_bloodhound_hydra.mdl"
+	}
+	"bloodhound_perfectworld"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_bloodhound/v_glove_bloodhound_perfectworld.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_bloodhound_perfectworld.mdl"
+	}
+	"fingerless"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_fingerless/v_glove_fingerless.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_fingerless.mdl"
+	}
+	"fullfinger"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_fullfinger/v_glove_fullfinger.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_fullfinger.mdl"
+	}
+	"handwrap_leathery"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_handwrap_leathery/v_glove_handwrap_leathery.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_handwrap_leathery.mdl"
+	}
+	"hardknuckle"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_hardknuckle/v_glove_hardknuckle.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_hardknuckle.mdl"
+	}
+	"hardknuckle_black"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_hardknuckle/v_glove_hardknuckle_black.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_hardknuckle_black.mdl"
+	}
+	"hardknuckle_blue"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_hardknuckle/v_glove_hardknuckle_blue.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_hardknuckle_blue.mdl"
+	}
+	"motorcycle"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_motorcycle/v_glove_motorcycle.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_motorcycle.mdl"
+	}
+	"slick"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_slick/v_glove_slick.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_slick.mdl"
+	}
+	"specialist"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist/v_glove_specialist.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist.mdl"
+	}
+	"sporty"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty/v_glove_sporty.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty.mdl"
+	}
+	"sporty1"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty1/v_glove_sporty1.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty1.mdl"
+//		"localization"	"Спортивные Перчатки | Амфибия"
+		"loaclization"	"CStrike_PlayerGloves_sporty1"
+	}
+	"sporty2"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty2/v_glove_sporty2.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty2.mdl"
+//		"localization"	"Спортивные Перчатки | Ящик Пандоры"
+		"loaclization"	"#CStrike_PlayerGloves_sporty2"
+	}
+	"sporty3"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty3/v_glove_sporty3.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty3.mdl"
+//		"localization"	"Спортивные Перчатки | Засуха"
+		"loaclization"	"#CStrike_PlayerGloves_sporty3"
+	}
+	"sporty4"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty4/v_glove_sporty4.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty4.mdl"
+//		"localization"	"Спортивные Перчатки | Ноктс"
+		"loaclization"	"#CStrike_PlayerGloves_sporty4"
+	}
+	"sporty5"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty5/v_glove_sporty5.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty5.mdl"
+//		"localization"	"Спортивные Перчатки | Омега"
+		"loaclization"	"#CStrike_PlayerGloves_sporty5"
+	}
+	"sporty6"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty6/v_glove_sporty6.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty6.mdl"
+//		"localization"	"Спортивные Перчатки | Порок"
+		"loaclization"	"#CStrike_PlayerGloves_sporty6"
+	}
+	"sporty7"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty7/v_glove_sporty7.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty7.mdl"
+//		"localization"	"Спортивные Перчатки | Сверхпроводник"
+		"loaclization"	"#CStrike_PlayerGloves_sporty7"
+	}
+	"sporty8"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty8/v_glove_sporty8.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty8.mdl"
+//		"localization"	"Спортивные Перчатки | Крупная добыча"
+		"loaclization"	"#CStrike_PlayerGloves_sporty8"
+	}
+	"sporty9"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty9/v_glove_sporty9.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty9.mdl"
+//		"localization"	"Спортивные Перчатки | Окисление бронзы"
+		"loaclization"	"#CStrike_PlayerGloves_sporty9"
+	}
+	"sporty10"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty10/v_glove_sporty10.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty10.mdl"
+//		"localization"	"Спортивные Перчатки | Живая изгородь"
+		"loaclization"	"#CStrike_PlayerGloves_sporty10"
+	}
+	"sporty11"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty11/v_glove_sporty11.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty11.mdl"
+//		"localization"	"Спортивные Перчатки | Кровавый шемах"
+		"loaclization"	"#CStrike_PlayerGloves_sporty11"
+	}
+	"sporty12"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_sporty12/v_glove_sporty12.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_sporty12.mdl"
+//		"localization"	"Спортивные Перчатки | Мясник"
+		"loaclization"	"#CStrike_PlayerGloves_sporty12"
+	}
+	"specialist1"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist1/v_glove_specialist1.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist1.mdl"
+//		"localization"	"Перчатки спецназа | Основа"
+		"loaclization"	"#CStrike_PlayerGloves_specialist1"
+	}
+	"specialist2"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist2/v_glove_specialist2.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist2.mdl"
+//		"localization"	"Перчатки спецназа | Дробь"
+		"loaclization"	"#CStrike_PlayerGloves_specialist2"
+	}
+	"specialist3"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist3/v_glove_specialist3.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist3.mdl"
+//		"localization"	"Перчатки спецназа | Кровавое кимоно"
+		"loaclization"	"#CStrike_PlayerGloves_specialist3"
+	}
+	"specialist4"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist4/v_glove_specialist4.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist4.mdl"
+//		"localization"	"Перчатки спецназа | Кровавая паутина"
+		"loaclization"	"#CStrike_PlayerGloves_specialist4"
+	}
+	"specialist5"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist5/v_glove_specialist5.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist5.mdl"
+//		"localization"	"Перчатки спецназа | Изумрудная сеть"
+		"loaclization"	"#CStrike_PlayerGloves_specialist5"
+	}
+	"specialist6"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist6/v_glove_specialist6.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist6.mdl"
+//		"localization"	"Перчатки спецназа | Градиент"
+		"loaclization"	"#CStrike_PlayerGloves_specialist6"
+	}
+	"specialist7"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist7/v_glove_specialist7.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist7.mdl"
+//		"localization"	"Перчатки спецназа | Полевой агент"
+		"loaclization"	"#CStrike_PlayerGloves_specialist7"
+	}
+	"specialist8"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist8/v_glove_specialist8.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist8.mdl"
+//		"localization"	"Перчатки спецназа | Пиксельный камуфляж «Лес»"
+		"loaclization"	"#CStrike_PlayerGloves_specialist8"
+	}
+	"specialist9"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist9/v_glove_specialist9.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist9.mdl"
+//		"localization"	"Перчатки спецназа | Капитан 3-го ранга"
+		"loaclization"	"#CStrike_PlayerGloves_specialist9"
+	}
+	"specialist10"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist10/v_glove_specialist10.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist10.mdl"
+//		"localization"	"Перчатки спецназа | Мраморный градиент"
+		"loaclization"	"#CStrike_PlayerGloves_specialist10"
+	}
+	"specialist11"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/glove_specialist11/v_glove_specialist11.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_glove_specialist11.mdl"
+//		"localization"	"Перчатки спецназа | Покоритель гор"
+		"loaclization"	"#CStrike_PlayerGloves_specialist11"
+	}
+	"handwrap1"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap1/v_handwrap1.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap1.mdl"
+//		"localization" "Обмотки рук | ОСТОРОЖНО!"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap1"
+	}
+	"handwrap2"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap2/v_handwrap2.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap2.mdl"
+//		"localization" "Обмотки рук | Удав"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap2"
+	}
+	"handwrap3"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap3/v_handwrap3.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap3.mdl"
+//		"localization" "Обмотки рук | Жираф"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap3"
+	}
+	"handwrap4"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap4/v_handwrap4.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap4.mdl"
+//		"localization" "Обмотки рук | Пустынный шемах"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap4"
+	}
+	"handwrap5"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap5/v_handwrap5.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap5.mdl"
+//		"localization" "Обмотки рук | Лес"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap5"
+	}
+	"handwrap6"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap6/v_handwrap6.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap6.mdl"
+//		"localization" "Обмотки рук | Скотч"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap6"
+	}
+	"handwrap7"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap7/v_handwrap7.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap7.mdl"
+//		"localization" "Обмотки рук | Оттиск"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap7"
+	}
+	"handwrap8"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap8/v_handwrap8.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap8.mdl"
+//		"localization" "Обмотки рук | Пустошь"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap8"
+	}
+	"handwrap9"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap9/v_handwrap9.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap9.mdl"
+//		"localization" "Обмотки рук | Бойня"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap9"
+	}
+	"handwrap10"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap10/v_handwrap10.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap10.mdl"
+//		"localization" "Обмотки рук | Пиксельный камуфляж «Хвоя»"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap10"
+	}
+	"handwrap11"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/handwrap11/v_handwrap11.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_handwrap11.mdl"
+//		"localization" "Обмотки рук | Синие черепа"
+		"loaclization"	"#CStrike_PlayerGloves_handwrap11"
+	}
+	"moto1"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto1/v_moto1.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto1.mdl"
+//		"localization" "Мотоциклетные перчатки | Кровяное давление"
+		"loaclization"	"#CStrike_PlayerGloves_moto1"
+	}
+	"moto2"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto2/v_moto2.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto2.mdl"
+//		"localization" "Мотоциклетные перчатки | Третья рота коммандо"
+		"loaclization"	"#CStrike_PlayerGloves_moto2"
+	}
+	"moto3"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto3/v_moto3.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto3.mdl"
+//		"localization" "Мотоциклетные перчатки | Бросаю дымовую"
+		"loaclization"	"#CStrike_PlayerGloves_moto3"
+	}
+	"moto4"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto4/v_moto4.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto4.mdl"
+//		"localization" "Мотоциклетные перчатки | Финишная линия"
+		"loaclization"	"#CStrike_PlayerGloves_moto4"
+	}	
+	"moto5"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto5/v_moto5.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto5.mdl"
+//		"localization" "Мотоциклетные перчатки | Полигон"
+		"loaclization"	"#CStrike_PlayerGloves_moto5"
+	}	
+	"moto6"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto6/v_moto6.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto6.mdl"
+//		"localization" "Мотоциклетные перчатки | Транспорт"
+		"loaclization"	"#CStrike_PlayerGloves_moto6"
+	}	
+	"moto7"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto7/v_moto7.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto7.mdl"
+//		"localization" "Мотоциклетные перчатки | Черепаха"
+		"loaclization"	"#CStrike_PlayerGloves_moto7"
+	}
+	"moto8"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto8/v_moto8.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto8.mdl"
+//		"localization" "Мотоциклетные перчатки | БУХ!"
+		"loaclization"	"#CStrike_PlayerGloves_moto8"
+	}
+	"moto9"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto9/v_moto9.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto9.mdl"
+//		"localization" "Мотоциклетные перчатки | Мятная прохлада"
+		"loaclization"	"#CStrike_PlayerGloves_moto9"
+	}
+	"moto10"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto10/v_moto10.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto10.mdl"
+//		"localization" "Мотоциклетные перчатки | Бах!"
+		"loaclization"	"#CStrike_PlayerGloves_moto10"
+	}
+	"moto11"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/moto11/v_moto11.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_moto11.mdl"
+//		"localization" "Мотоциклетные перчатки | Мята"
+		"loaclization"	"#CStrike_PlayerGloves_moto11"
+	}
+	"slick1"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick1/v_slick1.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick1.mdl"
+//		"localization" "Водительские перчатки | Чёрный галстук"
+		"loaclization"	"#CStrike_PlayerGloves_slick1"
+	}
+	"slick2"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick2/v_slick2.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick2.mdl"
+//		"localization" "Водительские перчатки | Королева ягуаров"
+		"loaclization"	"#CStrike_PlayerGloves_slick2"
+	}
+	"slick3"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick3/v_slick3.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick3.mdl"
+//		"localization" "Водительские перчатки | Снежный барс"
+		"loaclization"	"#CStrike_PlayerGloves_slick3"
+	}
+	"slick4"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick4/v_slick4.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick4.mdl"
+//		"localization" "Водительские перчатки | Резан Красный"
+		"loaclization"	"#CStrike_PlayerGloves_slick4"
+	}
+	"slick5"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick5/v_slick5.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick5.mdl"
+//		"localization" "Водительские перчатки | Гоночный зелёный"
+		"loaclization"	"#CStrike_PlayerGloves_slick5"
+	}
+	"slick6"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick6/v_slick6.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick6.mdl"
+//		"localization" "Водительские перчатки | Обгон"
+		"loaclization"	"#CStrike_PlayerGloves_slick6"
+	}
+	"slick7"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick7/v_slick7.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick7.mdl"
+//		"localization" "Водительские перчатки | Имперская клетка"
+		"loaclization"	"#CStrike_PlayerGloves_slick7"
+	}
+	"slick8"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick8/v_slick8.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick8.mdl"
+//		"localization" "Водительские перчатки | Королевский змей"
+		"loaclization"	"#CStrike_PlayerGloves_slick8"
+	}
+	"slick9"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick9/v_slick9.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick9.mdl"
+//		"localization" "Водительские перчатки | Гремучая змея"
+		"loaclization"	"#CStrike_PlayerGloves_slick9"
+	}
+	"slick10"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick10/v_slick10.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick10.mdl"
+//		"localization" "Водительские перчатки | Багряный узор"
+		"loaclization"	"#CStrike_PlayerGloves_slick10"
+	}
+	"slick11"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick11/v_slick11.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick11.mdl"
+//		"localization" "Водительские перчатки | Конвой"
+		"loaclization"	"#CStrike_PlayerGloves_slick11"
+	}
+	"slick12"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/slick12/v_slick12.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_slick12.mdl"
+//		"localization"  "Водительские перчатки | Лунный узор"
+		"loaclization"	"#CStrike_PlayerGloves_slick12"
+	}	
+	"hydra1"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/hydra1/v_hydra1.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_hydra1.mdl"
+//		"localization"	"Перчатки «Гидра» | Поверхностная закалка"
+		"localization"	"#CStrike_PlayerGloves_hydra1"
+	}	
+	"hydra2"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/hydra2/v_hydra2.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_hydra2.mdl"
+//		"localization"	"Перчатки «Гидра» | Гремучая змея"
+		"localization"	"#CStrike_PlayerGloves_hydra2"
+	}
+	"hydra3"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/hydra3/v_hydra3.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_hydra3.mdl"
+//		"localization"	"Перчатки «Гидра» | Мангры"
+		"localization"	"#CStrike_PlayerGloves_hydra3"
+	}
+	"bhound1"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/bhound1/v_bhound1.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_bhound1.mdl"
+//		"localization"	"Перчатки «Бладхаунд» | Диверсант"
+		"localization"	"#CStrike_PlayerGloves_bhound1"
+	}	
+	"bhound2"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/bhound2/v_bhound2.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_bhound2.mdl"
+//		"localization"	"Перчатки «Бладхаунд» | Бронза"
+		"localization"	"#CStrike_PlayerGloves_bhound2"
+	}
+	"bhound3"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/bhound3/v_bhound3.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_bhound3.mdl"
+//		"localization"	"Перчатки «Бладхаунд» | Укус змеи"
+		"localization"	"#CStrike_PlayerGloves_bhound3"
+	}
+	"bfang1"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/bfang1/v_bfang1.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_bfang1.mdl"
+//		"localization"	"Перчатки «Сломанный клык» | Без тормозов"
+		"localization"	"#CStrike_PlayerGloves_bfang1"
+	}
+	"bfang2"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/bfang2/v_bfang2.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_bfang2.mdl"
+//		"localization"	"Перчатки «Сломанный клык» | Острие игры"
+		"localization"	"#CStrike_PlayerGloves_bfang2"
+	}	
+	"bfang3"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/bfang3/v_bfang3.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_bfang3.mdl"
+//		"localization"	"Перчатки «Сломанный клык» | Желтые полосы"
+		"localization"	"#CStrike_PlayerGloves_bfang3"
+	}		
+	"bfang4"
+	{
+		"viewmodel"		"models/weapons/v_models/arms/bfang4/v_bfang4.mdl"
+		"worldmodel"	"models/weapons/w_models/arms/w_bfang4.mdl"
+//		"localization"	"Перчатки «Сломанный клык» | Нефрит"
+		"localization"	"#CStrike_PlayerGloves_bfang4"
+	}	
+}

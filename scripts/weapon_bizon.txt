@@ -1,0 +1,115 @@
+WeaponData
+{
+	"MaxPlayerSpeed"				"240"
+	"WeaponType"					"Submachine Gun"
+	"FullAuto"						"1"
+	"WeaponPrice"					"1400"
+	"KillAward"						"600"
+	"WeaponArmorRatio"				"1.26"
+	"CrosshairMinDistance"			"7"
+	"CrosshairDeltaDistance"		"3"
+	"Team"							"ANY"
+	"PlayerAnimationExtension"		"tmp"
+	"MuzzleFlashEffect1stPerson"	"weapon_muzzle_flash_smg"
+	"MuzzleFlashEffect3rdPerson"	"weapon_muzzle_flash_smg"
+	"TracerEffect"					"weapon_tracers_smg"
+	"TracerFrequency"				"3"
+	"EjectBrassEffect"				"weapon_shell_casing_9mm"
+	"HeatEffect"					"weapon_muzzle_smoke"
+	"HeatPerShot"					"0.3"
+	"AddonLocation"					"primary_smg"
+
+	// Weapon characteristics:
+	"Penetration"					"1.0"
+	"Damage"						"27"
+	"Range"							"3600.0"
+	"RangeModifier"					"0.8"
+	"Bullets"						"1"
+	"CycleTime"						"0.08"
+	"TimeToIdle"					"2.0"
+	"IdleInterval"					"20.0"
+
+	// New accuracy model parameters
+	"Spread"						"0.001000"
+	"InaccuracyCrouch"				"0.010500"
+	"InaccuracyStand"				"0.014000"
+	"InaccuracyJump"				"0.033470"
+	"InaccuracyJumpInitial"			"0.045900"
+	"InaccuracyLand"				"0.000080"
+	"InaccuracyLadder"				"0.169650"
+	"InaccuracyFire"				"0.002880"
+	"InaccuracyMove"				"0.027570"
+	"RecoilAngle"					"0.000000"
+	"RecoilAngleVariance"			"70.00000"
+	"RecoilMagnitude"				"18.00000"
+	"RecoilMagnitudeVariance"		"1.000000"
+	"RecoilSeed"					"36387"
+
+	"RecoveryTimeCrouch"			"0.236837"
+	"RecoveryTimeStand"				"0.331572"
+	"RecoveryTransitionStartBullet"	"2"
+	"RecoveryTransitionEndBullet"	"5"
+
+	"FlinchVelocityModifierLarge"	"0.0"
+	"FlinchVelocityModifierSmall"	"0.0"
+
+	"ReserveAmmoMax"				"120"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"						"#CStrike_WPNHUD_Bizon"
+	"viewmodel"						"models/weapons/v_smg_bizon.mdl"
+	"playermodel"					"models/weapons/w_smg_bizon.mdl"
+	"MagazineModel"					"models/weapons/w_smg_bizon_mag.mdl"
+	"anim_prefix"					"anim"
+	"bucket"						"0"
+	"bucket_position"				"0"
+	"clip_size"						"64"
+	"primary_ammo"					"BULLET_PLAYER_9MM"
+	"secondary_ammo"				"None"
+	"weight"						"25"
+	"item_flags"					"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"						"Default.ClipEmpty_Rifle"
+		"single_shot"				"Weapon_Bizon.Single"
+		"nearly_empty"				"Default.NearlyEmpty"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"CSweaponsSmall"
+				"character"	"D"
+		}
+		"weapon_s"
+		{
+				"font"		"CSweapons"
+				"character"	"D"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"R"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

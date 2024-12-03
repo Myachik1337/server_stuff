@@ -1,0 +1,122 @@
+WeaponData
+{
+	"MaxPlayerSpeed"				"150"
+	"AttackMoveSpeedFactor"			"0.5"
+	"WeaponType"					"Machine Gun"
+	"FullAuto"						"1"
+	"WeaponPrice"					"1700"
+	"KillAward"						"300"
+	"WeaponArmorRatio"				"1.42"
+	"CrosshairMinDistance"			"6"
+	"CrosshairDeltaDistance"		"3"
+	"Team"							"ANY"
+	"PlayerAnimationExtension"		"m249"
+	"MuzzleFlashEffect1stPerson"	"weapon_muzzle_flash_para_FP"
+	"MuzzleFlashEffect3rdPerson"	"weapon_muzzle_flash_para"
+	"TracerEffect"					"weapon_tracers_mach"
+	"TracerFrequency"				"1"
+	"EjectBrassEffect"				"weapon_shell_casing_rifle"
+	"HeatEffect"					"weapon_muzzle_smoke"
+	"HeatPerShot"					"0.35"
+	"AddonScale"					"0.9"
+	"AddonLocation"					"primary_mg"
+
+	// Weapon characteristics:
+	"Penetration"					"2.0"
+	"Damage"						"35"
+	"Range"							"8192.0"
+	"RangeModifier"					"0.97"
+	"Bullets"						"1"
+	"CycleTime"						"0.075"
+	"TimeToIdle"					"1.6"
+	"IdleInterval"					"20.0"
+
+	// New accuracy model parameters
+	"Spread"						"0.002000"
+	"InaccuracyCrouch"				"0.007630"
+	"InaccuracyStand"				"0.010170"
+	"InaccuracyJump"				"0.292230"
+	"InaccuracyJumpInitial"			"0.116290"
+	"InaccuracyLand"				"0.000409"
+	"InaccuracyLadder"				"0.136430"
+	"InaccuracyFire"				"0.030000"
+	"InaccuracyMove"				"0.159140"
+	"RecoilAngle"					"0.000000"
+	"RecoilAngleVariance"			"0.000000"
+	"RecoilMagnitude"				"20.00000"
+	"RecoilMagnitudeVariance"		"2.000000"
+	"RecoilSeed"					"57966"
+
+	"InaccuracyPitchShift"			"-50.0"
+	"lInaccuracyAltSoundThreshold"	"0.02"
+
+	"RecoveryTimeCrouch"			"0.250000"
+	"RecoveryTimeStand"				"0.300000"
+	"RecoveryTimeCrouchFinal"		"0.080000"
+	"RecoveryTimeStandFinal"		"0.100000"
+	"RecoveryTransitionStartBullet"	"9"
+	"RecoveryTransitionEndBullet"	"12"
+
+	"FlinchVelocityModifierLarge"	"0.4"
+	"FlinchVelocityModifierSmall"	"0.55"
+
+	"ReserveAmmoMax"				"300"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"						"#CStrike_WPNHUD_Negev"
+	"viewmodel"						"models/weapons/v_mach_negev.mdl"
+	"playermodel"					"models/weapons/w_mach_negev.mdl"
+	"MagazineModel"					"models/weapons/w_mach_negev_mag.mdl"
+	"anim_prefix"					"anim"
+	"bucket"						"0"
+	"bucket_position"				"0"
+	"clip_size"						"150"
+	"primary_ammo"					"BULLET_PLAYER_556MM_BOX"
+	"weight"						"25"
+	"item_flags"					"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"						"Default.ClipEmpty_Rifle"
+		"single_shot"				"Weapon_Negev.Single"
+		"single_shot_npc"			"Weapon_Negev.SingleFocused" // actually single_shot_accurate
+		"nearly_empty"				"Default.NearlyEmpty"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"CSweaponsSmall"
+				"character"	"Z"
+		}
+		"weapon_s"
+		{
+				"font"		"CSweapons"
+				"character"	"Z"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"N"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}
